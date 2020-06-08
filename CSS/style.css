@@ -1,3 +1,4 @@
+/*Edição da navbar -0*/
 .navbar-nav, .nav-link{
     font-weight: 200;
     font-size: 12px;
@@ -10,21 +11,9 @@
 .navbar-brand{
     margin: 0 40px;
 }
+/*-0*/
 
 
-/*Navegação na lista suspensa da navbar -1*/
- /*Cor de fundo da lista suspensa*/
-.colorDropDownList{
-    background-color: #237dddfa;
-}
-.colorLink{
-    color:#ffffff;
-    font-weight: bold;
-}
-.colorLink:hover{
-    color:#237dddc7;
-}
-/*-1*/
 
 /*Navegação nos link/botões da navbar*/
 .btn{
@@ -46,3 +35,82 @@
 /*3*/
 
 
+/*Navegação na lista suspensa da navbar -1*/
+ /*Cor de fundo da lista suspensa*/
+.colorDropDownList{
+    background-image: linear-gradient(
+    to top,  
+     #237dddfa,#8abef7fa
+    );
+}
+.colorLink{
+    color:#ffffff;
+    font-weight: bold;
+}
+.colorLink:hover{
+    color:#237dddc7;
+}
+/*-1*/
+
+
+
+
+/*Footer*/
+.footerBg{
+    background-image: linear-gradient(
+        to top right,
+        #b893e2, #6f96eb, #3366d4, #421179
+    );
+}
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    list-style-type: circle;
+}
+.nav-list li a:hover:before {
+    margin-left: 20px;
+    opacity: 1;
+    visibility: visible;
+}
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-list a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6ee600;
+    display: inline-table;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+.sizeIMG, p{
+    width: 75%;
+    color:#ffffff;
+}
+
+h5,dt{
+    font-weight: bold;
+    color:#ffffff;
+}
+
+dd{
+    color:#ffffff;
+}
+
+.imagFooter{
+    transition: all 0.5s; /* velocidade da animação*/
+}
+.imagFooter:hover{
+    transform: scale(1.5);/* Tamanho do Zoom*/
+}
