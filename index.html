@@ -39,7 +39,7 @@
     </head>
     <body>
         <!--Início da Navbar que segue a rolagem-->
-        <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #ffffff;">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top navBarGradient" style="background-color: #ffffff;">
             <div class="container"><!--Início conteiner para afastar "the things of margin" *1-->
                 <!--Logo da Página-->
                 <a class="navbar-brand" href="index.html">
@@ -51,12 +51,13 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                
                 <div class="col-auto"><!--Início de uma coluna Bootstrap para colocar "the things" à esquerda *2-->
                     <div class="collapse navbar-collapse" id="navbarNavDropdown"><!--Div do botão que é ativado quando necessidade de resposividade: 
                         colocamos "the things" dentro dele também *3-->
                         <ul class="navbar-nav"><!--Início de uma lista de navbar Bootstrap-->
                             <li class="nav-item active"><!--Item 1 da lista-->
-                                <a class="nav-link " href="#"><button class="colorLinkNavBar btn">HOME</button><span class="sr-only">(current)</span></a>
+                                <a class="nav-link " href="index.html"><button class="colorLinkNavBar btn">HOME</button><span class="sr-only">(current)</span></a>
                             </li><!--Item 1 final-->
                             <li class="nav-item"><!--Item 2 da lista-->
                                 <a class="nav-link" href="#"><button class="colorLinkNavBar btn">CONTATO</button></a>
@@ -80,8 +81,65 @@
                 </div><!--Final da Div *2-->
             </div><!--Final da Div *1-->
         </nav><!--Final da Navbar-->
-
         
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <!-- Footer -->
+        <footer class="section footer-classic context-dark">
+            <div class="container-fluid footerBg"><!--Container largo-->
+                <div class="container"><!--Container centralizador-->
+                    <div class="row row-cols-3"><!--Linha 1-->
+                        <!--Coluna 1-->
+                        <div class="col-6 col-md-6">
+                            <br>
+                            <a href="#"><h5>Contatos:</h5></a>
+                            <dl class="contact-list">
+                                <dt>Endereço (Escritório):</dt>
+                                <dd>Ermelino Matarazzo - Parq. Císper, Rua Ourém - 03818-170</dd>
+                            </dl>
+        
+                            <dl class="contact-list">
+                                <dt>Telefones:</dt>
+                                <dd><a href="tel:1120381522">(11) 2038-1522</a>
+                                </dd>
+                            </dl>
+
+                            <dl class="contact-list">
+                                <dt>Email:</dt>
+                                <dd><a href="mailto:elionprotege@elionprotege.com.br">elionprotege@elionprotege.com.br</a></dd>
+                            </dl>
+                        </div><!--Final Coluna 1-->
+                        
+                        <!--Coluna 2-->
+                        <div class="col-6 col-md-3">
+                            <br>
+                            <h5>Links:</h5>
+                            <ul class="nav-list">
+                                <li><a class="dropdown-item colorLink" href="#">Home</a></li>
+                                <li><a class="dropdown-item colorLink" href="#">Contato</a></li>
+                                <li><a class="dropdown-item colorLink" href="#">Redes</a></li>
+                                <li><a class="dropdown-item colorLink" href="#">Telas</a></li>
+                                <li><a class="dropdown-item colorLink" href="#">Grades</a></li>
+                                <li><a class="dropdown-item colorLink" href="#">Varais</a></li>
+                                <li><a class="dropdown-item colorLink" href="#">Cercas</a></li>
+                            </ul>
+                        </div><!-- Final Coluna 2-->
+                       
+                        <div class="col-6 col-md-3">
+                            <br><br><br><!--Rights-->
+                            <center>
+                                <a href="https://github.com/thyagoerick"><img class="sizeIMG imagFooter" src="imgs/home/footerLogoFundoEscuro.png"></a>
+                                <b><p class="rights"><span>©</span><span class="copyright-year">2020</span>. <span>All Rights Reserved.</span></p></b>
+                            </center>
+                        </div>
+                    </div><!--Final Linha 1--> 
+                </div><!--Final Container centralizador-->
+              <br>
+            </div><!--Final Container largo-->
+        </footer>
+        <!-- Footer -->
+
+
 
      <!-- CDN * JavaScript na ordem: jQuery, Popper.js e depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
