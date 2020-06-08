@@ -1,0 +1,48 @@
+.navbar-nav, .nav-link{
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.navbar-nav, .nav-item{
+    margin: 0 25px;
+}
+
+.navbar-brand{
+    margin: 0 40px;
+}
+
+
+/*Navegação na lista suspensa da navbar -1*/
+ /*Cor de fundo da lista suspensa*/
+.colorDropDownList{
+    background-color: #237dddfa;
+}
+.colorLink{
+    color:#ffffff;
+    font-weight: bold;
+}
+.colorLink:hover{
+    color:#237dddc7;
+}
+/*-1*/
+
+/*Navegação nos link/botões da navbar*/
+.btn{
+    border-radius: 10px;
+    height: 50px;
+    position: relative;
+    top: 11px;
+}
+.colorLinkNavBar{
+    color: #1b4298;
+    font-weight: bold;
+    
+}
+.colorLinkNavBar:hover{
+    background: #1b4298;
+    color: #ffffff;
+    cursor: pointer;
+}
+/*3*/
+
+
