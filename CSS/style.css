@@ -11,6 +11,10 @@
 .navbar-brand{
     margin: 0 40px;
 }
+
+.logo{
+    margin: 0 -3px;
+}
 /*-0*/
 
 
@@ -40,7 +44,7 @@
 .colorDropDownList{
     background-image: linear-gradient(
     to top,  
-     #237dddfa,#8abef7fa
+     #2c7cd1fa,#68a2e0fa
     );
 }
 .colorLink{
@@ -113,4 +117,28 @@ dd{
 }
 .imagFooter:hover{
     transform: scale(1.5);/* Tamanho do Zoom*/
+}
+
+/*Link do WhatsApp*/
+.whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 15px;/*position fof bottom relativ at top of pag*/
+    right: 40px;
+    background-color: #25d366;
+    color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888; /*Sombreamento*/
+    margin: 0 -31px;
+    z-index: 1000; /*Fica por cima de qualquer elemento da tela*/
+}
+.whatsapp-link:hover{
+    background-color: #ffffff;
+    color: #25d366;
+}
+.fa-whatsapp{
+    margin-top: 15px;
 }
