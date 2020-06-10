@@ -172,8 +172,8 @@ dd{
 .bg{
     background-attachment: fixed;
     background-repeat: no-repeat ;
-    /*background-size: 100%;
-    background-color: #ffffff;*/
+    background-size: 100%;
+    background-color: #ffffff;
 }
 
 /*Defiine o tamanho da div*/
