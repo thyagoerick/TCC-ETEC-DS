@@ -147,31 +147,45 @@ dd{
     margin-top: 15px;
 }
 
-/*Tags para o primeiro Conteúdo
-.Content1{
-    height: auto;
-    background-image: linear-gradient(
-        to top right,
-        #b893e2, #6f96eb, #3366d4, #421179
-    );
+/*Tags para o primeiro Conteúdo*/
+.pContent1{
+    color: #ffffff;
+    text-align:center;
+    margin-top: 20px;
+    margin-left: 130px;
+    font-family: "Century751 No2 BT";
+    font-size: 40px;
+    font-weight: bold;
+    font: 1px 1px 2px #888;
 }
 
-.pContent1{
-    margin-top: auto;
-    margin-left: auto;
-    color: #ffffff;
+.pContent2{
+    color: #000000;
     text-size-adjust: auto;
     text-align: justify;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+/*Configurção da imagem de fundo usansdo o body*/
+/*Não é possível fazer o degradê com CSS desse jeito*/
+.bg{
+    background-attachment: fixed;
+    background-repeat: no-repeat ;
+    /*background-size: 100%;
+    background-color: #ffffff;*/
+}
+
+/*Defiine o tamanho da div*/
+.divBg{
+    background-color: #ffffff;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.hrEdit1{
+      background-color:  rgb(89, 0, 255);;
+      height: 5px;
+      width: 700px;
 
 }
-.imagAlign{
-    height: auto;
-    width: auto;
-    float: left;
-    margin: 0 20px 10px 0;
-    margin-top: auto;
-    margin-left: -30px;
-    border-radius:9%;
-    image-rendering: auto;
-}
-*/
