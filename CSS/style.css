@@ -1,6 +1,6 @@
 /*Edição da navbar -0*/
 .navbar-nav, .nav-link{
-    font-weight: 200;
+    font-weight: 100;
     font-size: 12px;
 }
 
@@ -17,22 +17,24 @@
 }
 /*-0*/
 
-
-
 /*Navegação nos link/botões da navbar*/
 .btn{
-    border-radius: 10px;
+    border-radius: 15px;
     height: 50px;
     position: relative;
     top: 11px;
+    box-shadow: 0px;
+    border: rgba(240, 248, 255, 0);
 }
 .colorLinkNavBar{
     color: #1b4298;
     font-weight: bold;
-    
 }
 .colorLinkNavBar:hover{
-    background: #1b4298;
+    background-image: linear-gradient(
+        to top left,
+      #83dafd, #577ed1, #0d24a7
+    );
     color: #ffffff;
     cursor: pointer;
 }
@@ -40,12 +42,14 @@
 
 
 /*Navegação na lista suspensa da navbar -1*/
+
  /*Cor de fundo da lista suspensa*/
 .colorDropDownList{
     background-image: linear-gradient(
-    to top,  
-     #2c7cd1fa,#68a2e0fa
+        to top right,
+     #0d24a7, #577ed1, #83dafd 
     );
+    border: rgba(240, 248, 255, 0);
 }
 .colorLink{
     color:#ffffff;
@@ -142,3 +146,42 @@ dd{
 .fa-whatsapp{
     margin-top: 15px;
 }
+
+
+/*TENTATIVA COM ID*/
+#tg{
+    background-image: url(imgs/home/Banner1.png);
+    background-repeat: no-repeat;
+}
+
+
+
+
+/*Tags para o primeiro Conteúdo
+.Content1{
+    height: auto;
+    background-image: linear-gradient(
+        to top right,
+        #b893e2, #6f96eb, #3366d4, #421179
+    );
+}
+
+.pContent1{
+    margin-top: auto;
+    margin-left: auto;
+    color: #ffffff;
+    text-size-adjust: auto;
+    text-align: justify;
+
+}
+.imagAlign{
+    height: auto;
+    width: auto;
+    float: left;
+    margin: 0 20px 10px 0;
+    margin-top: auto;
+    margin-left: -30px;
+    border-radius:9%;
+    image-rendering: auto;
+}
+*/
