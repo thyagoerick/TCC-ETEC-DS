@@ -42,7 +42,8 @@
         
         <title>Elion Protege</title>
     </head>
-    <body class="image-fluid bg" background="imgs/home/Banner1.png">
+    <body class="img-fluid bg">
+
         <!--Início da Navbar que segue a rolagem-->
         <nav class="navbar navbar-expand-lg navbar-light sticky-top navBarGradient" style="background-color: #ffffff;">
             <div class="container"><!--Início conteiner para afastar "the things of margin" *1-->
@@ -55,14 +56,13 @@
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 
                 <div class="col-auto"><!--Início de uma coluna Bootstrap para colocar "the things" à esquerda *2-->
                     <div class="collapse navbar-collapse" id="navbarNavDropdown"><!--Div do botão que é ativado quando necessidade de resposividade: 
                         colocamos "the things" dentro dele também *3-->
                         <ul class="navbar-nav"><!--Início de uma lista de navbar Bootstrap-->
                             <li class="nav-item active"><!--Item 1 da lista-->
-                                <a class="nav-link " href="index.html"><button class="colorLinkNavBar btn">HOME</button><span class="sr-only">(current)</span></a>
+                                <a class="nav-link " href="index.html"><button class="colorLinkNavBar btn">HOME</button></a>
                             </li><!--Item 1 final-->
                             <li class="nav-item"><!--Item 2 da lista-->
                                 <a class="nav-link" href="#"><button class="colorLinkNavBar btn">CONTATO</button></a>
@@ -88,23 +88,22 @@
         </nav><!--Final da Navbar-->
         
 
-        <!--Tem a imagem de fundo *1-->
-        <div class="container">
-            <br><br><br><br><br><br><br><br><br><br>
-            <hr class="hrEdit1">
-            <p class="pContent1">
-                <i>PROTEGENDO QUEM VOCÊ AMA</i>
-            </p>
-            <hr class="hrEdit1">
-            <br><br><br><br><br><br>
-        </div><!--*1-->
+        <section class="home">
+            <div class= "container-fluid bgImage pContent1">
+                <div class="container">
+                    <i>PROTEGENDO QUEM VOCÊ AMA</i>  
+                </div>  
+            </div>
+        </section>
 
-        <br>
 
-        <div class="  container-fluid divBg pContent2">
-          
+
+        
+
+        
+        <div class= "container-fluid divBg pContent2">
+            <div class="container">
                 <br>
-    
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem 
             pariatur repellat saepe quisquam iusto dicta iure odit illo, iste, 
             incidunt temporibus vero! Explicabo porro a doloribus deserunt odit iusto consequatur!
@@ -132,9 +131,7 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem 
             pariatur repellat saepe quisquam iusto dicta iure odit illo, iste, 
             incidunt temporibus vero! Explicabo porro a doloribus deserunt odit iusto consequatur!
-
-        <br> 
-            
+        <br>  
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem 
             pariatur repellat saepe quisquam iusto dicta iure odit illo, iste, 
             incidunt temporibus vero! Explicabo porro a doloribus deserunt odit iusto consequatur!
@@ -162,16 +159,18 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem 
             pariatur repellat saepe quisquam iusto dicta iure odit illo, iste, 
             incidunt temporibus vero! Explicabo porro a doloribus deserunt odit iusto consequatur!
-       
         <br><br>
     </div>
+</div>
         
 
-        <!--Link WhatsApp-->
+        <!--Link para o WhatsApp (target="_blank" abre o link em uma nova guia)-->
         <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=11986814879" target="_blank">
             <i class="fa fa-whatsapp"></i>
         </a>
 
+        <!--Linha clássica antes do footer-->
+        <div class="classic container-fluid"></div>
         <!-- Footer -->
         <footer class="section footer-classic context-dark">
             <div class="container-fluid footerBg"><!--Container largo-->
@@ -226,8 +225,6 @@
             </div><!--Final Container largo-->
         </footer>
         <!-- Footer -->
-
-
 
      <!-- CDN * JavaScript na ordem: jQuery, Popper.js e depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
