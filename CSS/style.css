@@ -1,23 +1,33 @@
-/*Edição da navbar -0*/
+/*Zerando tags padrão *0.1---------------------------------------------------------------*0.1*/
+/*MARGENS----*/
+p{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/*MARGENS---X*/
+
+/*0.1-------------------====================---------------------------------------------*0.1*/
+
+
+/*Edição da navbar *0--------------------------------------------------------------------*0*/
 .navbar-nav, .nav-link{
     font-weight: 100;
     font-size: 12px;
 }
-
 .navbar-nav, .nav-item{
     margin: 0 25px;
 }
-
 .navbar-brand{
     margin: 0 40px;
 }
-
 .logo{
     margin: 0 -3px;
 }
-/*-0*/
+/*0*-------------------------------------------------------------------------------------*0*/
 
-/*Navegação nos link/botões da navbar*/
+
+/*Navegação nos link/botões da navbar *1*------------------------------------------------*1*/
 .btn{
     border-radius: 15px;
     height: 50px;
@@ -38,11 +48,10 @@
     color: #ffffff;
     cursor: pointer;
 }
-/*3*/
+/*1*-------------------------------------------------------------------------------------*1*/
 
 
-/*Navegação na lista suspensa da navbar -1*/
-
+/*Navegação na lista suspensa da navbar *2*----------------------------------------------*2*/
  /*Cor de fundo da lista suspensa*/
 .colorDropDownList{
     background-image: linear-gradient(
@@ -58,12 +67,87 @@
 .colorLink:hover{
     color:#237dddc7;
 }
-/*-1*/
+/*2*-------------------------------------------------------------------------------------*2*/
 
 
+/*Tags para o primeiro Conteúdo *3*------------------------------------------------------*3*/
+/*Div com  uma imagem de background*/
+/*Colocamos o url assim, pois ele precisa sair do diretório com
+ os .. e depois entrar neles de novo com o caminho original*/
+ .bgImage{
+    background-image: url(../imgs/home/Banner1.png);   
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    height: 540px; 
+}
+/*Parágrafo do primeiro conteúdo*/
+.pContent1{
+    margin: auto;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Century751 No2 BT";
+    font-size: 40px;
+    font-weight: bold;
+    position: center;
+}
+/*3*-------------------------------------------------------------------------------------*3*/
+
+/*Tags para o segundo Conteúdo *4*-------------------------------------------------------*4*/
+/*Parágrafo do segundo conteúdo*/
+.pContent2{
+    color: #000000;
+    text-size-adjust: auto;
+    text-align: justify;
+    margin-top: -70px;
+    margin-left: 90px;
+}
+/*!!!DIV MESTRA!!! do segundo conteúdo*/
+.divBg{
+    background-color: #ffffff;
+    margin-top: auto;
+    margin-left: auto;
+    /*z-index: 900px;*/
+}
+/*4*-------------------------------------------------------------------------------------*4*/
 
 
-/*Footer*/
+/*Link do WhatsApp *5*-------------------------------------------------------------------*5*/
+.whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 15px;/*position fof bottom relativ at top of pag*/
+    right: 40px;
+    background-color: #25d366;
+    color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888; /*Sombreamento*/
+    margin: 0 -31px;
+    z-index: 1000; /*Fica por cima de qualquer elemento da tela*/
+}
+.whatsapp-link:hover{
+    background-color: #ffffff;
+    color: #25d366;
+}
+.fa-whatsapp{
+    margin-top: 15px;
+}
+/*5*-------------------------------------------------------------------------------------*5*/
+
+
+/*Classic Strip *6*----------------------------------------------------------------------*6*/
+/*Faixa comum antes do footer*/
+.classic{
+    background-color:  rgb(89, 0, 255);
+    height: 13px;
+}
+/*6*-------------------------------------------------------------------------------------*6*/
+
+
+/*Footer *7*-----------------------------------------------------------------------------*7*/
 .footerBg{
     background-image: linear-gradient(
         to top right,
@@ -101,91 +185,22 @@ ul, ol {
     visibility: hidden;
     transition: .22s ease;
 }
-
-.sizeIMG, p{
-    width: 75%;
-    color:#ffffff;
-}
-
 h5,dt{
     font-weight: bold;
     color:#ffffff;
 }
-
 dd{
     color:#ffffff;
 }
-
+.sizeIMG, p{
+    width: 75%;
+    color:#ffffff;
+}
+/*Logo do Projeto*/
 .imagFooter{
     transition: all 0.5s; /* velocidade da animação*/
 }
 .imagFooter:hover{
     transform: scale(1.5);/* Tamanho do Zoom*/
 }
-
-/*Link do WhatsApp*/
-.whatsapp-link{
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 15px;/*position fof bottom relativ at top of pag*/
-    right: 40px;
-    background-color: #25d366;
-    color: #ffffff;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 1px 1px 2px #888; /*Sombreamento*/
-    margin: 0 -31px;
-    z-index: 1000; /*Fica por cima de qualquer elemento da tela*/
-}
-.whatsapp-link:hover{
-    background-color: #ffffff;
-    color: #25d366;
-}
-.fa-whatsapp{
-    margin-top: 15px;
-}
-
-/*Tags para o primeiro Conteúdo*/
-.pContent1{
-    color: #ffffff;
-    text-align:center;
-    margin-top: 20px;
-    margin-left: 130px;
-    font-family: "Century751 No2 BT";
-    font-size: 40px;
-    font-weight: bold;
-    font: 1px 1px 2px #888;
-}
-
-.pContent2{
-    color: #000000;
-    text-size-adjust: auto;
-    text-align: justify;
-    margin-top: 50px;
-    margin-left: 90px;
-}
-
-/*Configurção da imagem de fundo usansdo o body*/
-/*Não é possível fazer o degradê com CSS desse jeito*/
-.bg{
-    background-attachment: fixed;
-    background-repeat: no-repeat ;
-    background-size: 100%;
-    background-color: #ffffff;
-}
-
-/*Defiine o tamanho da div*/
-.divBg{
-    background-color: #ffffff;
-    margin-top: auto;
-    margin-left: auto;
-}
-
-.hrEdit1{
-      background-color:  rgb(89, 0, 255);;
-      height: 5px;
-      width: 700px;
-
-}
+/*7*-------------------------------------------------------------------------------------*7*/
