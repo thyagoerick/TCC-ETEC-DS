@@ -6,9 +6,7 @@ p{
     margin-right: 0px;
 }
 /*MARGENS---X*/
-
-/*0.1-------------------====================---------------------------------------------*0.1*/
-
+/*0.1-------------------------------------------------------------------------------------*0.1*/
 
 /*Edição da navbar *0--------------------------------------------------------------------*0*/
 .navbar-nav, .nav-link{
@@ -87,10 +85,12 @@ p{
     color: #ffffff;
     text-align: center;
     font-family: "Century751 No2 BT";
-    font-size: 40px;
+    font-size: 46px;
     font-weight: bold;
     position: center;
+    
 }
+
 /*3*-------------------------------------------------------------------------------------*3*/
 
 /*Tags para o segundo Conteúdo *4*-------------------------------------------------------*4*/
@@ -103,11 +103,40 @@ p{
     margin-left: 90px;
 }
 /*!!!DIV MESTRA!!! do segundo conteúdo*/
-.divBg{
-    background-color: #ffffff;
+.divBg1{
+    background-image: linear-gradient(
+        to top left,
+     #1100ff, #0051ff, #00a2ff
+    );
     margin-top: auto;
     margin-left: auto;
     /*z-index: 900px;*/
+}
+
+u{
+    color: #fffb00;
+}
+
+.bEdit1{
+    color: #1b4298;
+}
+.bEdit2{
+   color:#49d4f7;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px,auto));/* O auto-fit tenta preencher com o que tenho de contúdo, enquanto o auto-fil tenta preencher colunas, independende se existir conteúdo ou não */    
+}
+
+.pEdit1{
+    font-family: "Elephant";
+    font-size: 35px;
+    color: #ffffff;
+    text-align: auto;
+    position: center;
+    margin: auto;
+    margin-top: 150px;
+    
 }
 /*4*-------------------------------------------------------------------------------------*4*/
 
