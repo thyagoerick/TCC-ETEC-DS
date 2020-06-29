@@ -69,6 +69,7 @@ p{
 
 
 /*Tags para o primeiro Conteúdo *3*------------------------------------------------------*3*/
+
 /*Div com  uma imagem de background*/
 /*Colocamos o url assim, pois ele precisa sair do diretório com
  os .. e depois entrar neles de novo com o caminho original*/
@@ -88,22 +89,17 @@ p{
     font-size: 46px;
     font-weight: bold;
     position: center;
-    
 }
-
+.grid0{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 32% 34% 34%;
+}
 /*3*-------------------------------------------------------------------------------------*3*/
 
 /*Tags para o segundo Conteúdo *4*-------------------------------------------------------*4*/
-/*Parágrafo do segundo conteúdo*/
-.pContent2{
-    color: #000000;
-    text-size-adjust: auto;
-    text-align: justify;
-    margin-top: -70px;
-    margin-left: 90px;
-}
-/*!!!DIV MESTRA!!! do segundo conteúdo*/
-.divBg1{
+/*!!!DIV MESTRA!!! do segundo conteúdo parte 2*/
+.divBg2{
     background-image: linear-gradient(
         to top left,
      #1100ff, #0051ff, #00a2ff
@@ -112,31 +108,141 @@ p{
     margin-left: auto;
     /*z-index: 900px;*/
 }
-
-u{
-    color: #fffb00;
-}
-
-.bEdit1{
-    color: #1b4298;
-}
-.bEdit2{
-   color:#49d4f7;
-}
-.grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px,auto));/* O auto-fit tenta preencher com o que tenho de contúdo, enquanto o auto-fil tenta preencher colunas, independende se existir conteúdo ou não */    
-}
-
-.pEdit1{
+/*Parágrafo do segundo conteúdo*/
+.pEdit2{
     font-family: "Elephant";
     font-size: 35px;
     color: #ffffff;
-    text-align: auto;
+    text-align: center;
     position: center;
     margin: auto;
     margin-top: 150px;
-    
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px,auto));/* O auto-fit tenta preencher com o que tenho de contúdo, enquanto o auto-fil tenta preencher colunas, independende se existir conteúdo ou não */    
+}
+.bEdit2-1{
+    color: #1b4298;
+}
+.bEdit2-2{
+   color:#49d4f7;
+}
+.u2{
+    color: #fffb00;
+}
+
+/*!!!DIV MESTRA!!! do segundo conteúdo parte 3*/
+.divBg3{
+    background-image: linear-gradient(
+        to top right,
+     #00ff00, #00ff6a, #35ffab
+    );
+    margin-top: auto;
+    margin-left: auto;
+    /*z-index: 900px;*/
+}
+.pEdit3{
+    font-family: "Elephant";
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+    position: center;
+    margin: auto;
+    margin-top: 60px;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,auto));
+    /* O auto-fit tenta preencher com o que tenho de contúdo, enquanto auto-fil
+     tenta preencher colunas, independende se existir conteúdo ou não */    
+}
+.bEdit3-1{
+    color: #1b981b;
+}
+.bEdit3-2{
+   color:#496145;
+}
+.u3{
+    color: #995608;
+}
+
+/*!!!DIV MESTRA!!! do segundo conteúdo parte 4*/
+.divBg4{
+ 
+    margin-top: auto;
+    margin-left: auto;
+    /*z-index: 900px;*/
+}
+.bgImage4{
+    background-image: url(../imgs/home/sobreElion4back.png);   
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    height: auto;
+}
+.pEdit4{
+    font-family: "Elephant";
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+    position: center;
+    margin: auto;
+    margin-top: 100px;
+}
+.grid4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,auto));
+    /* O auto-fit tenta preencher com o que tenho de contúdo, enquanto auto-fil
+     tenta preencher colunas, independende se existir conteúdo ou não */    
+}
+.bEdit4-1{
+    color: #ffe605;
+}
+.bEdit4-2{
+   color:#fff7b4;
+}
+.u4{
+    color: #000000;
+}
+
+/*!!!DIV MESTRA!!! do segundo conteúdo parte 5*/
+.divBg5{
+    background-image: linear-gradient(
+        to top right,
+     #ff51e2, #ff008c, #ff0015
+    );
+    margin-top: auto;
+    margin-left: auto;
+    /*z-index: 900px;*/
+}
+.pEdit5{
+    font-family: "Elephant";
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+    position: center;
+    margin: auto;
+    margin-top: 60px;
+}
+.grid5{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,auto));
+    /* O auto-fit tenta preencher com o que tenho de contúdo, enquanto auto-fil
+     tenta preencher colunas, independende se existir conteúdo ou não */    
+}
+.bEdit5-1{
+    color: #ff8690;
+}
+.aEdit5{
+   color:#ff83b7;
+}
+.aEdit5:hover{
+    color:#ea82ff;
+}
+.u5{
+    color: #a47aff;
 }
 /*4*-------------------------------------------------------------------------------------*4*/
 
@@ -171,7 +277,7 @@ u{
 /*Faixa comum antes do footer*/
 .classic{
     background-color:  rgb(89, 0, 255);
-    height: 13px;
+    height: 20px;
 }
 /*6*-------------------------------------------------------------------------------------*6*/
 
