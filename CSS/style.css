@@ -5,6 +5,10 @@ p{
     margin-left: 0px;
     margin-right: 0px;
 }
+
+body{
+    background-color:  rgb(34, 2, 53);
+}
 /*MARGENS---X*/
 /*0.1-------------------------------------------------------------------------------------*0.1*/
 
@@ -339,3 +343,54 @@ dd{
     transform: scale(1.5);/* Tamanho do Zoom*/
 }
 /*7*-------------------------------------------------------------------------------------*7*/
+
+
+/*Section Galeria*8*----------------------------------------------------------------------*8*/
+.galeria1{
+   margin-top: 30px;
+}
+/*8*-------------------------------------------------------------------------------------*8*/
+
+/*Carroussel Galeria*9*----------------------------------------------------------------------*9*/
+.CarrousselGalery{
+    margin-top: 80px;
+ }
+ /*9*-------------------------------------------------------------------------------------*9*/
+
+ 
+/*Textio Galeria*10*----------------------------------------------------------------------*10*/
+.estiloGalery{
+    margin-top: auto;
+    color: cornsilk;
+    font-family: 'Arial','Lucida Sans', Verdana, Sans-serif;
+}
+/*10*-------------------------------------------------------------------------------------*10*/
+
+
+/*Textio Galeria*11*----------------------------------------------------------------------*11*/
+.estiloGalery{
+    margin-top: 100px;
+    color: rgb(162, 176, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: auto;
+}
+
+
+
+@keyframes neon{
+    from{
+        filter: drop-shadow(0 0 0 var(--cor-neon));
+    }
+    to{
+        filter: drop-shadow(0 0 10px var(--cor-neon));
+    }
+}
+
+.estiloGalery{
+    animation: neon 2s alternate infinite ease-in-out;
+}
+
+.texto{
+    --cor-neon: #2ee0ff;
+}
+/*11*-------------------------------------------------------------------------------------*11*/
