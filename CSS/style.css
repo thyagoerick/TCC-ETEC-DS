@@ -7,7 +7,7 @@ p{
 }
 
 body{
-    background-color:  rgb(34, 2, 53);
+    background-color:  rgb(229, 237, 250);
 }
 /*MARGENS---X*/
 /*0.1-------------------------------------------------------------------------------------*0.1*/
@@ -270,6 +270,8 @@ body{
 .whatsapp-link:hover{
     background-color: #ffffff;
     color: #25d366;
+    --corWhapp: #25d366;
+    animation: whapp 1s alternate infinite ease-in-out;
 }
 .fa-whatsapp{
     margin-top: 15px;
@@ -347,7 +349,7 @@ dd{
 
 /*Section Galeria*8*----------------------------------------------------------------------*8*/
 .galeria1{
-   margin-top: 30px;
+   margin-top: 0px;
 }
 /*8*-------------------------------------------------------------------------------------*8*/
 
@@ -368,6 +370,19 @@ dd{
 
 
 /*Textio Galeria*11*----------------------------------------------------------------------*11*/
+
+.fundo{
+    background-color: rgb(34, 2, 53);
+}
+
+.neonP{
+    font-family: 'Elephant', 'Arial', 'Verdana';
+    color: #26e400;
+    --cor-neon2: #6dfd6d;
+    animation: redes 1s alternate infinite ease-in-out;
+    font-size: 40px;
+}
+
 .estiloGalery{
     margin-top: 100px;
     color: rgb(162, 176, 255);
@@ -375,22 +390,58 @@ dd{
     font-size: auto;
 }
 
-
-
-@keyframes neon{
-    from{
-        filter: drop-shadow(0 0 0 var(--cor-neon));
-    }
-    to{
-        filter: drop-shadow(0 0 10px var(--cor-neon));
-    }
-}
-
 .estiloGalery{
-    animation: neon 2s alternate infinite ease-in-out;
+    animation: neon 1s alternate infinite ease-in-out;
 }
 
 .texto{
     --cor-neon: #2ee0ff;
 }
 /*11*-------------------------------------------------------------------------------------*11*/
+
+
+/*imagem da ISO*12*----------------------------------------------------------------------*12*/
+.imagKeyframe{
+    --cor: #ffffff;
+    animation: img 1s alternate infinite ease-in-out;
+}
+/*12*-------------------------------------------------------------------------------------*12*/
+
+
+/*keyframes*13*----------------------------------------------------------------------*13*/
+@keyframes neon{
+    from{
+        filter: drop-shadow(0 0 3px var(--cor-neon));
+    }
+    to{
+        filter: drop-shadow(0 3px 11px var(--cor-neon));
+    }
+}
+
+@keyframes img{
+    from{
+        filter: drop-shadow(0 0 2px var(--cor));
+    }
+    to{
+        filter: drop-shadow(0 0 10px var(--cor));
+    }
+}
+
+@keyframes whapp{
+    from{
+        filter: drop-shadow(0 0 2px var(--corWhapp));
+    }
+    to{
+        filter: drop-shadow(0 0 15px var(--corWhapp));
+    }
+}
+
+@keyframes redes{
+    from{
+        filter: drop-shadow(0 0 3px var(--cor-neon2));
+    }
+    to{
+        filter: drop-shadow(0 0px 5px var(--cor-neon2));
+    }
+}
+/*13*-------------------------------------------------------------------------------------*13*/
