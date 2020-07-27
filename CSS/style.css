@@ -7,7 +7,7 @@ p{
 }
 
 body{
-    background-color:  rgb(229, 237, 250);
+    background-color: #ffffff;
 }
 /*MARGENS---X*/
 /*0.1-------------------------------------------------------------------------------------*0.1*/
@@ -73,7 +73,6 @@ body{
 
 
 /*Tags para o primeiro Conteúdo *3*------------------------------------------------------*3*/
-
 /*Div com  uma imagem de background*/
 /*Colocamos o url assim, pois ele precisa sair do diretório com
  os .. e depois entrar neles de novo com o caminho original*/
@@ -100,6 +99,7 @@ body{
     grid-template-rows: 32% 34% 34%;
 }
 /*3*-------------------------------------------------------------------------------------*3*/
+
 
 /*Tags para o segundo Conteúdo *4*-------------------------------------------------------*4*/
 /*!!!DIV MESTRA!!! do segundo conteúdo parte 2*/
@@ -369,19 +369,12 @@ dd{
 /*10*-------------------------------------------------------------------------------------*10*/
 
 
-/*Textio Galeria*11*----------------------------------------------------------------------*11*/
+/*Galeria*11*----------------------------------------------------------------------*11*/
 
 .fundo{
-    background-color: rgb(34, 2, 53);
+    background-color: #220235;
 }
 
-.neonP{
-    font-family: 'Elephant', 'Arial', 'Verdana';
-    color: #26e400;
-    --cor-neon2: #6dfd6d;
-    animation: redes 1s alternate infinite ease-in-out;
-    font-size: 40px;
-}
 
 .estiloGalery{
     margin-top: 100px;
@@ -445,3 +438,105 @@ dd{
     }
 }
 /*13*-------------------------------------------------------------------------------------*13*/
+
+
+
+
+/*Textos Galeria*11*----------------------------------------------------------------------*11*/
+/*REDES*********************************************************/
+@keyframes redes{
+    from{
+        filter: drop-shadow(0 0 1px var(--cor-neon2));
+    }
+    to{
+        filter: drop-shadow(0 0px 0px var(--cor-neon2));
+    }
+}
+.neonP{
+    font-family: 'Elephant', 'Arial', 'Verdana';
+    color: #b4bfdb;
+    --cor-neon2: #112f80;
+    animation: redes 1s alternate infinite ease-in-out;
+    font-size: 40px;
+}
+/*REDES*********************************************************/
+
+
+
+/*TELAS*********************************************************/
+@keyframes telas{
+    from{
+        filter: drop-shadow(0 0 1px var(--cor-neon3));
+    }
+    to{
+        filter: drop-shadow(0 0px 0px var(--cor-neon3));
+    }
+}
+.neonP2{
+    font-family: 'Elephant', 'Arial', 'Verdana';
+    color: #f9b1fd;
+    --cor-neon3: #bb00c5;
+    animation: telas 1s alternate infinite ease-in-out;
+    font-size: 40px;
+}
+/*TELAS*********************************************************/
+
+
+
+/*GRADES*********************************************************/
+@keyframes grades{
+    from{
+        filter: drop-shadow(0 0 3px var(--cor-neon4));
+    }
+    to{
+        filter: drop-shadow(0 0px 0px var(--cor-neon4));
+    }
+}
+.neonP3{
+    font-family: 'Elephant', 'Arial', 'Verdana';
+    color: #fef58c;
+    --cor-neon4: #fef58c;
+    animation: grades 1s alternate infinite ease-in-out;
+    font-size: 40px;
+}
+/*GRADES*********************************************************/
+
+
+
+/*VARAIS*********************************************************/
+@keyframes varais{
+    from{
+        filter: drop-shadow(0 0 3px var(--cor-neon5));
+    }
+    to{
+        filter: drop-shadow(0 0px 0px var(--cor-neon5));
+    }
+}
+.neonP4{
+    font-family: 'Elephant', 'Arial', 'Verdana';
+    color: #b2fa9c;
+    --cor-neon5: #35d803;
+    animation: varais 1s alternate infinite ease-in-out;
+    font-size: 40px;
+}
+/*VARAIS*********************************************************/
+
+
+/*CERCAS*********************************************************/
+@keyframes cercas{
+    from{
+        filter: drop-shadow(0 0 1px var(--cor-neon6));
+    }
+    to{
+        filter: drop-shadow(0 0px 0px var(--cor-neon6));
+    }
+}
+.neonP5{
+    font-family: 'Elephant', 'Arial', 'Verdana';
+    color: #d79573;
+    --cor-neon6: #f5a47c;
+    animation: cercas 1s alternate infinite ease-in-out;
+    font-size: 40px;
+}
+/*CERCAS*********************************************************/
+/*11*-------------------------------------------------------------------------------------*11*/
