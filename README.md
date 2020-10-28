@@ -11,38 +11,6 @@ Este Trabalho de Conclusão de Curso (TCC) em Técnico em Desenvolvimento de Sis
        - HTML; 
        - Bootstrap (CSS);
        - Photoshop;
-        
-    - Aplicativo para Gestão:
-        - Apps Híbridos:
-          - Frontend:
-            - Ionoc-HTML;
-          - Backend:
-            - Typescript (JavaScripty);
-            - Banco de Dados (MySQL):
-               - Usar o XAMPP (phpMyAdmin);
----
-## Sumário:
-- **Resumo**
-- **Introdução:**
-    - Nome do Projeto;
-    - Tópicos *ONU - Agenda 2030*;
-    - Problema;
-- **Desenvolvimento:**
-    - Proposta de solução;
-    - Técnologia usadas;
-    - Concorrentes;
-- **Conclusão**
-    - Retorna ao site e ao App;
-- **Bibliografia**
-    - Sites;
-    - Livros;
-    - Vídeos;
----
-
-### Resumo
----
-
-### Introdução
 
 #### Nome do Projeto
 
@@ -63,12 +31,6 @@ Este Trabalho de Conclusão de Curso (TCC) em Técnico em Desenvolvimento de Sis
 - _Objetivo 9. Construir infraestruturas resilientes, promover a industrialização inclusiva e sustentável e fomentar a inovação_:
    
   - 9.1 Desenvolver infraestrutura de qualidade, confiável, sustentável e resiliente, incluindo infraestrutura regional e transfronteiriça, para apoiar o desenvolvimento econômico e o bem-estar humano, com foco no acesso equitativo e a preços acessíveis para todos;
----
-
-### Desenvolvimento
----
-
-### Conclusão
 ---
 
 ### Bibliografia
